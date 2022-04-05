@@ -1,4 +1,4 @@
-var newWin = window.open("", "Poppout", "toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=350,height=400,top="+(screen.height-400)+",left="+(screen.width-840));  // ref to pageB is stored in var newWin
+var newWin = window.open("", "Poppout", "toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=480,height=340,top="+(screen.height-400)+",left="+(screen.width-840));  // ref to pageB is stored in var newWin
 newWin.document.write(`
 <script>
 document.title = 'CookieClicker GUI - penguinpowers'
@@ -7,6 +7,151 @@ var opener = window.opener;
 <html>
 </script>
 <script>
+function all() {
+    setInterval(function(){
+        var pagebutton= opener.document.getElementById("product0");
+        pagebutton.click();
+  }, 20);
+
+
+
+
+    setInterval(function(){
+        var pagebutton= opener.document.getElementById("product1");
+        pagebutton.click();
+  }, 20);
+    
+
+
+
+    setInterval(function(){
+        var pagebutton= opener.document.getElementById("product2");
+        pagebutton.click();
+  }, 20);
+
+
+
+
+    setInterval(function(){
+        var pagebutton= opener.document.getElementById("product3");
+        pagebutton.click();
+  }, 20);
+
+
+
+
+    setInterval(function(){
+        var pagebutton= opener.document.getElementById("product4");
+        pagebutton.click();
+  }, 20);
+    
+
+
+
+    setInterval(function(){
+        var pagebutton= opener.document.getElementById("product5");
+        pagebutton.click();
+  }, 20);
+    
+
+
+
+    setInterval(function(){
+        var pagebutton= opener.document.getElementById("product6");
+        pagebutton.click();
+  }, 20);
+    
+
+
+
+    setInterval(function(){
+        var pagebutton= opener.document.getElementById("product7");
+        pagebutton.click();
+  }, 20)
+    
+
+
+
+    setInterval(function(){
+        var pagebutton= opener.document.getElementById("product8");
+        pagebutton.click();
+  }, 20);
+    
+
+
+
+    setInterval(function(){
+        var pagebutton= opener.document.getElementById("product9");
+        pagebutton.click();
+  }, 20);
+    
+
+
+
+    setInterval(function(){
+        var pagebutton= opener.document.getElementById("product10");
+        pagebutton.click();
+  }, 20);
+    
+
+
+
+    setInterval(function(){
+        var pagebutton= opener.document.getElementById("product11");
+        pagebutton.click();
+  }, 20);
+    
+
+
+
+    setInterval(function(){
+        var pagebutton= opener.document.getElementById("product12");
+        pagebutton.click();
+  }, 20);
+    
+
+
+
+    setInterval(function(){
+        var pagebutton= opener.document.getElementById("product13");
+        pagebutton.click();
+  }, 20);
+    
+
+
+
+    setInterval(function(){
+        var pagebutton= opener.document.getElementById("product14");
+        pagebutton.click();
+  }, 20);
+    
+
+
+
+    setInterval(function(){
+        var pagebutton= opener.document.getElementById("product15");
+        pagebutton.click();
+  }, 20);
+    
+
+
+
+    setInterval(function(){
+        var pagebutton= opener.document.getElementById("product16");
+        pagebutton.click();
+  }, 20);
+    
+
+
+
+    setInterval(function(){
+        var pagebutton= opener.document.getElementById("product17");
+        pagebutton.click();
+  }, 20);
+
+}
+
+
 function inputt() {
     let input = document.getElementById("input").value;
     if (input == "Cursor") {
@@ -17,12 +162,24 @@ function inputt() {
 
     }
 
+    if (input == "Store") {
+        setInterval(function(){
+            var pagebutton= opener.document.getElementById("upgrade0");
+            pagebutton.click();
+      }, 5);
+      }
+
+
     if (input == "Grandma") {
         setInterval(function(){
             var pagebutton= opener.document.getElementById("product1");
             pagebutton.click();
       }, 20);
         
+    }
+
+    if (input == "All") {
+        all()
     }
 
     if (input == "Farm") {
@@ -139,7 +296,7 @@ function inputt() {
 
     if (input == "Javascript") {
         setInterval(function(){
-            var pagebutton= opener.ocument.getElementById("product16");
+            var pagebutton= opener.document.getElementById("product16");
             pagebutton.click();
       }, 20);
         
@@ -201,8 +358,8 @@ function inputt() {
         <div class="buttttttt">
             <input placeholder="Building..." class="text54321" id="input"></input>
             <button class="but12345" onclick="javascript:inputt()">Spam Buy (first letter capital!)</button>
-            <button onclick="stop()" >Stop Spam</button>
             <h3>penguinpowers nice cookie clicker UI</h3>
+            <button onclick="opener.window.location.href='https://github.com/penguinblook/'">Github</button>
             <p>please don't steal this took a very long time.</p>
             <input class="text54321" type="number" id="Num" placeholder="Number..."></input>
             <br>
