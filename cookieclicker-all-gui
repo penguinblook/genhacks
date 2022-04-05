@@ -151,7 +151,157 @@ function all() {
 
 }
 
+function sl() {
+var Input = document.getElementByIs("Input").value;
+if (Input == "Cursor") {
+        setInterval(function(){
+            var pagebutton= opener.document.getElementById("productLevel0");
+            pagebutton.click();
+      }, 20);
 
+    }
+
+    if (Input == "Grandma") {
+        setInterval(function(){
+            var pagebutton= opener.document.getElementById("productLevel1");
+            pagebutton.click();
+      }, 20);
+        
+    }
+
+    if (Input == "All") {
+        all()
+    }
+
+    if (Input == "Farm") {
+        setInterval(function(){
+            var pagebutton= opener.document.getElementById("productLevel2");
+            pagebutton.click();
+      }, 20);
+
+    }
+
+    if (Input == "Mine") {
+        setInterval(function(){
+            var pagebutton= opener.document.getElementById("productLevel3");
+            pagebutton.click();
+      }, 20);
+
+    }
+
+    if (Input == "Factory") {
+        setInterval(function(){
+            var pagebutton= opener.document.getElementById("productLevel4");
+            pagebutton.click();
+      }, 20);
+        
+    }
+
+    if (Input == "Bank") {
+        setInterval(function(){
+            var pagebutton= opener.document.getElementById("productLevel5");
+            pagebutton.click();
+      }, 20);
+        
+    }
+
+    if (Input == "Temple") {
+        setInterval(function(){
+            var pagebutton= opener.document.getElementById("productLevel6");
+            pagebutton.click();
+      }, 20);
+        
+    }
+
+    if (Input == "Wizard") {
+        setInterval(function(){
+            var pagebutton= opener.document.getElementById("productLevel7");
+            pagebutton.click();
+      }, 20)
+        
+    }
+
+    if (Input == "Shipment") {
+        setInterval(function(){
+            var pagebutton= opener.document.getElementById("productLevel8");
+            pagebutton.click();
+      }, 20);
+        
+    }
+
+    if (Input == "Alchemy") {
+        setInterval(function(){
+            var pagebutton= opener.document.getElementById("productLevel9");
+            pagebutton.click();
+      }, 20);
+        
+    }
+
+    if (Input == "Portal") {
+        setInterval(function(){
+            var pagebutton= opener.document.getElementById("productLevel10");
+            pagebutton.click();
+      }, 20);
+        
+    }
+
+    if (Input == "Time") {
+        setInterval(function(){
+            var pagebutton= opener.document.getElementById("productLevel11");
+            pagebutton.click();
+      }, 20);
+        
+    }
+
+    if (Input == "Antimatter") {
+        setInterval(function(){
+            var pagebutton= opener.document.getElementById("productLevel12");
+            pagebutton.click();
+      }, 20);
+        
+    }
+
+    if (Input == "Prism") {
+        setInterval(function(){
+            var pagebutton= opener.document.getElementById("productLevel13");
+            pagebutton.click();
+      }, 20);
+        
+    }
+
+    if (Input == "Chancemaker") {
+        setInterval(function(){
+            var pagebutton= opener.document.getElementById("productLevel14");
+            pagebutton.click();
+      }, 20);
+        
+    }
+
+    if (Input == "Fractal") {
+        setInterval(function(){
+            var pagebutton= opener.document.getElementById("productLevel15");
+            pagebutton.click();
+      }, 20);
+        
+    }
+
+    if (Input == "Javascript") {
+        setInterval(function(){
+            var pagebutton= opener.document.getElementById("productLevel16");
+            pagebutton.click();
+      }, 20);
+        
+    }
+
+    if (Input == "Idleverse") {
+        setInterval(function(){
+            var pagebutton= opener.document.getElementById("productLevel17");
+            pagebutton.click();
+      }, 20);
+
+    }
+
+}
 function inputt() {
     let input = document.getElementById("input").value;
     if (input == "Cursor") {
@@ -356,9 +506,12 @@ function inputt() {
           }      
     </style>
         <div class="buttttttt">
+            <p>Suger Lump Building Upgrades,</p>
+            <input id="Input" placeholder="Building..." class="text54321"></input>
+            <p>Buy Buildings,</p>
             <input placeholder="Building..." class="text54321" id="input"></input>
-            <button class="but12345" onclick="javascript:inputt()">Spam Buy (first letter capital!)</button>
-            <h3>penguinpowers nice cookie clicker UI</h3>
+            <button class="but12345" onclick="javascript:inputt();sl();">Spam Buy (first letter capital!)</button>
+            <h3>penguinpowers nice cookie clicker GUI</h3>
             <button onclick="opener.window.location.href='https://github.com/penguinblook/'">Github</button>
             <p>please don't steal this took a very long time.</p>
             <input class="text54321" type="number" id="Num" placeholder="Number..."></input>
